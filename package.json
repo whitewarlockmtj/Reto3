@@ -8,10 +8,12 @@
         "lint": "eslint ."
     },
     "dependencies": {
+        "base-cli": "^0.4.6",
+        "base-data": "^0.6.2",
         "express": "^4.18.2",
         "glob-stream": "^8.0.2",
         "set-value": "^4.1.0",
-        "update": "^0.4.2"
+        "update": "^0.7.4"
     },
     "devDependencies": {
         "@eslint/js": "^9.24.0",
