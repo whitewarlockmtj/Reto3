@@ -60,7 +60,7 @@ jobs:
       - name: Escanear imagen Docker con Trivy
         uses: aquasecurity/trivy-action@master
         with:
-          scan-type: 'fs'
+          #scan-type: 'fs'
           image-ref: whitewarlockmtj/reto3
           format: table
           exit-code: 1
