@@ -1,4 +1,4 @@
-name: CI/CD con Serveo
+name: CI/CD Reto 3
 
 on:
   push:
@@ -66,7 +66,7 @@ jobs:
           severity: HIGH,CRITICAL
 
   build-and-deploy:
-    needs: test
+    needs: docker-validation
     runs-on: ubuntu-latest
     if: success()
     steps:
