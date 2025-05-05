@@ -32,7 +32,9 @@
         "set-value": "^4.1.0",
         "shelljs": "^0.9.2",
         "templates": "^0.13.7",
-        "update": "^0.4.2"
+        "update": "^0.4.2",
+        "braces": "^3.0.3",
+        "js-yaml": "^4.1.0"
     },
     "devDependencies": {
         "@eslint/js": "^9.24.0",
