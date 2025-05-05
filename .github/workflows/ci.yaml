@@ -60,9 +60,10 @@ jobs:
       - name: Escanear imagen Docker con Trivy
         uses: aquasecurity/trivy-action@master
         with:
+          scan-type: 'fs'
           image-ref: whitewarlockmtj/reto3
           format: table
-          exit-code: 0
+          exit-code: 1
           severity: HIGH,CRITICAL
           ignore-unfixed: true
           vuln-type: os,library

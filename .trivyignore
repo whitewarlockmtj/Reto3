@@ -1,0 +1,2 @@
+# .trivyignore
+**/node_modules/**
