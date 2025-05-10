@@ -11,5 +11,5 @@ if (require.main === module) {
 }
 
 module.exports = app;
-//// Para ejecutar el servidor, usa el siguiente comando: Test
+// Para ejecutar el servidor, usa el siguiente comando: Test
 
